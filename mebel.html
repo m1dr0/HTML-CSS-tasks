@@ -1,96 +1,191 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Мебель на заказ</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/mebel.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tenor+Sans&family=Ubuntu:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Tenor+Sans&family=Ubuntu:wght@300;500&display=swap" rel="stylesheet">
+    <title>Мебель</title>
 </head>
 <body>
-	<nav>
-		<a href="master-classes.html">Мастер-класс</a>
-		<a href="mebel.html">Мебель на заказ</a>
-		<a href="main.html"><img src="" alt="IMG_1024 1"></a>
-		<a href="">Контакты</a>
-		<a href="about.html">О нас</a>
-	</nav>
-	<header>
-		<p>Воплотим вашу любую задумку в реальность</p>
-		<p>Столярная мастерская<br>NIKASON BRAND</p>
-		<button>Заказать мебель</button>
+	<header class="header">
+			<div class="container">
+				 <nav class="navigation">
+						 <ul class="navigation-items">
+							<li class="navigation-items__link1"><a href="master-classes.html">Мастер-классы</a></li>
+						 <li><a href="mebel.html">Мебель на заказ</a></li>
+						 </ul>              
+						 <a href="main.html"><div class="logo"><img src="images/IMG_1024 1.svg" alt="logo"></div></a>
+						 <ul class="navigation-items">
+							<li><a href="#">Контакты</a></li>
+						 <li class="navigation-items__link4"><a href="about.html">О нас</a></li>
+						 </ul>                 
+				 </nav>
+			</div>
 	</header>
-	<section>
-		<h2>Почему выбирают нас</h2>
-		<div>
-			<p>Давно на рынке</p>
-			<p>Опыт работы на рынке больше 10 лет</p>
-		</div>
-		<div>
-			<p>Гарантия качества</p>
-			<p>Предоставляем гарантию 12 месяцев на изделия </p>
-		</div>
-		<div>
-			<p>Юридическая прозрачность</p>
-			<p>Заключаем с каждым клиентом договор</p>
-		</div>
-		<div>
-			<p>Экологичность</p>
-			<p>Мебель из натуральной древесины, краски без токсичного состава</p>
-		</div>
-		<div>
-			<p>Эксклюзивность</p>
-			<p>Каждая мебель изготовлена по индивидуальному дизайну </p>
-		</div>
-		<div>
-			<p>Долговечность</p>
-			<p>Мебель из массива дерева прослужит даже вашим детям</p>
-		</div>
-	</section>
-	<section>
-		<h2>Портфолио</h2>
-		<img src="" alt="IMG_5907 1">
-		<a href=""><img src="" alt="tg"></a>
-		<img src="" alt="IMG_5669 1">
-		<img src="" alt="IMG_5822 1">
-		<img src="" alt="IMG_5628 1">
-		<img src="" alt="IMG_6067 1">
-		<img src="" alt="IMG_5697 1">
-		<img src="" alt="IMG_5694 1">
-	</section>
-	<section>
-		<h2>Этапы производства</h2>
-		<table>
-			<tr><td>Встреча с клиентом</td>
-				<td>Подписание договора, внесение предоплаты</td>
-				<td>Выезд к клиенту на замер (при необходимости)</td></tr>
-			<tr><td>Составление проекта</td>
-			<td>Изготовление и согласование всех стадий с клиентом</td>
-			<td>Доставка и монтаж изделия (при необходимости)</td></tr>
-		</table>
-	</section>
-	<section>
-		<h2>Клиенты о нас</h2>
-		<img src="" alt="IMG_4714 1">
-		<img src="" alt="IMG_4707 1">
-		<img src="" alt="IMG_4708 1">
-		<img src="" alt="IMG_4712 1">
-		<img src="" alt="IMG_4715 1">
-	</section>
-	<section>
-		<h2>Оставьте заявку и мы с вами свяжемся</h2>
-		<button>Оставить заявку</button>
-	</section>
-	<footer>
-		<ul><li><a>ИП Колодезников-Матчитов Н.И.<br>ИНН 143515646663</a></li>
-		<li><a href="master-classes.html">Мастер-классы</a></li>
-		<li><a href="">Контакты</a></li>
-		<li><a href="">Политика кофиденциальности</a></li>
-		<li><a href="mebel.html">Мебель на заказ</a></li>
-		<li><a href="about.html">О нас</a></li>
-		<li><a href="">Договор оферты</a></li>
-	</ul>
-		<a href=""><img src="" alt="tg"></a>
-		<a href=""><img src="" alt="ig"></a>
-		<a href=""><img src="" alt="wa"></a>
-	</footer>
+    
+    <section class="top__section">
+     <div class="container">
+        <div class="top__section-title">
+            <p>Воплотим вашу любую задумку в реальность</p>
+            <h1>Столярная мастерская</h1>
+            <h1 class="top__section-title__name">NIKASON BRAND</h1>
+            <button class="top__section-title__button">Заказать мебель</button>
+        </div>
+     </div>
+    </section>
+
+    <section class="why__section">
+        <div class="container">
+            <h2>Почему выбирают нас</h2>
+            <div class="why__section-text">
+                <div class="why__section-text__item">
+                    <b>Давно на рынке</b>
+                    <div class="why__section-text__item line"></div>
+                    <p>Опыт работы на рынке больше 10 лет</p>
+                </div>
+                <div class="why__section-text__item">
+                    <b>Гарантия качества</b>
+                     <div class="why__section-text__item line"></div>
+                    <p>Предоставляем гарантию 12 месяцев на изделия </p>
+                </div>
+                <div class="why__section-text__item">
+                    <b>Юридическая прозрачность</b>
+                     <div class="why__section-text__item line"></div>
+                    <p>Заключаем с каждым клиентом договор</p>
+                </div>
+                <div class="why__section-text__item">
+                    <b>Экологичность</b>
+                     <div class="why__section-text__item line"></div>
+                    <p>Мебель из натуральной древесины, краски без токсичного состава</p>
+                </div>
+                <div class="why__section-text__item">
+                    <b>Эксклюзивность</b>
+                     <div class="why__section-text__item line"></div>
+                    <p>Каждая мебель изготовлена по индивидуальному дизайну </p>
+                </div>
+                <div class="why__section-text__item">
+                    <b>Долговечность</b>
+                     <div class="why__section-text__item line"></div>
+                    <p>Мебель из массива дерева прослужит даже вашим детям</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio">
+        <div class="container">
+            <h2>Портфолио</h2>
+            <div class="portfolio-items">
+                <div class="portfolio-items__img">
+                    <img src="images/IMG_06S(1).jpg" alt="img">
+                </div>
+                <div class="portfolio-items__img">
+                    <img src="images/IMG_5669S.jpg" alt="img">
+                </div>
+                <div class="portfolio-items__img">
+                    <img src="images/IMG_5628S.png" alt="img">
+                </div>
+                <div class="portfolio-items__img">
+                    <img src="images/IMG_5694S.png" alt="img">
+                </div>
+                <div class="portfolio-items__img">
+                    <img src="images/IMG_5697S.png" alt="img">
+                </div>
+                <div class="portfolio-items__img">
+                    <img src="images/IMG_606S  (2).png" alt="img">
+                </div>
+                <div class="portfolio-items__img">
+                    <img src="images/IMG_60S.png" alt="img">
+                </div>
+                <div class="portfolio-items__img">
+                    <img src="images/IMG_6S(2).jpg" alt="img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="stages__section">
+        <div class="container">
+            <h2>Этапы производства</h2>
+                <ul class="stages__box">
+                            <li class="stages__box-item">
+                                <p>Встреча с клиентом</p>
+                                <h3>1</h3>
+                            </li>
+                            <li class="stages__box-item">
+                                <p>Подписание договора, внесение предоплаты</p>
+                                <h3>2</h3>
+                            </li>
+                            <li class="stages__box-item">
+                                <p>Выезд к клиенту на замер (при необходимости)</p>
+                                <h3>3</h3>
+                            </li>
+                            <li class="stages__box-item">
+                                <p>Составление проекта</p>
+                                <h3>4</h3>
+                            </li>
+                            <li class="stages__box-item">
+                                <p>Изготовление и согласование всех стадий с клиентом</p>
+                                <h3>5</h3>
+                            </li>
+                            <li class="stages__box-item">
+                                <p>Доставка и монтаж изделия (при необходимости)</p>
+                                <h3>6</h3>
+                            </li>
+                </ul>
+        </div>
+    </section>
+
+    <section class="reviews__section">
+        <div class="container">
+            <h2>Клиенты о нас</h2>
+            <div class="reviews__section-images">
+                <img src="images/IMG_4714 1.jpg" alt="img">
+                <img src="images/IMG_4707 1.jpg" alt="img">
+                <img src="images/IMG_4708 1.jpg" alt="img">
+                <img src="images/IMG_4712 1.jpg" alt="img">
+                <img src="images/IMG_4715 1.jpg" alt="img">
+            </div>
+            <h2>Оставьте заявку и мы с вами свяжемся</h2>
+            <div class="reviews__submit">
+                <button class="reviews__submit-button">Оставить заявку</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <p>
+                    ИП Колодезников-Матчитов Н.И.<br>
+                           ИНН 143515646663
+                </p>
+                <ul class="footer-inner__items">
+                    <li><a href="master-classes.html">Мастер-классы</a></li>
+                    <li><a href="mebel.html">Мебель на заказ</a></li>
+                </ul>
+                <ul class="footer-inner__items">
+                    <li><a href="#">Контакты</a></li>
+                    <li><a href="about.html">О нас</a></li>
+                </ul>
+                <ul class="footer-inner__items">
+                    <li><a href="#">Политика кофиденциальности</a></li>
+                    <li><a href="#">Договор оферты</a></li>
+                </ul>
+                <div class="footer-inner__link">
+									<a href="#"><img src="images/telegram-bottom.png" alt="tg"></a>
+                  <a href="#"><img src="images/inst-bottom.png" alt="ig"></a>
+                  <a href="#"><img src="images/whatsapp-bottom.png" alt="wa"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
