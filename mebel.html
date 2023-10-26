@@ -83,30 +83,18 @@
         <div class="container">
             <h2>Портфолио</h2>
             <div class="portfolio-items">
-                <div class="portfolio-items__img">
-                    <img src="images/IMG_06S(1).jpg" alt="img">
+                <div class="portfolio-items__img-full">
+                    <img src="./images/IMG_06S(1).jpg" class="portfolio-items__img" alt="img">
                 </div>
-                <div class="portfolio-items__img">
-                    <img src="images/IMG_5669S.jpg" alt="img">
-                </div>
-                <div class="portfolio-items__img">
-                    <img src="images/IMG_5628S.png" alt="img">
-                </div>
-                <div class="portfolio-items__img">
-                    <img src="images/IMG_5694S.png" alt="img">
-                </div>
-                <div class="portfolio-items__img">
-                    <img src="images/IMG_5697S.png" alt="img">
-                </div>
-                <div class="portfolio-items__img">
-                    <img src="images/IMG_606S  (2).png" alt="img">
-                </div>
-                <div class="portfolio-items__img">
-                    <img src="images/IMG_60S.png" alt="img">
-                </div>
-                <div class="portfolio-items__img">
-                    <img src="images/IMG_6S(2).jpg" alt="img">
-                </div>
+                    <img src="./images/IMG_5669S.jpg" class="portfolio-items__img" alt="img">
+                    <img src="./images/IMG_5628S.png" class="portfolio-items__img" alt="img">
+                    <img src="./images/IMG_5694S.png" class="portfolio-items__img" alt="img">
+                    <img src="./images/IMG_5697S.png" class="portfolio-items__img" alt="img">
+                    <img src="./images/IMG_606S  (2).png" class="portfolio-items__img" alt="img">
+                    <img src="./images/IMG_60S.png" class="portfolio-items__img" alt="img">
+                    <img src="./images/IMG_6S(2).jpg" class="portfolio-items__img" alt="img">
+										<button id="left-btn"><img src="./images/ep_arrow-left.svg" alt="left"></button>
+										<button id="right-btn"><img src="./images/ep_arrow-right.svg" alt="right"></button>
             </div>
         </div>
     </section>
@@ -155,7 +143,7 @@
             </div>
             <h2>Оставьте заявку и мы с вами свяжемся</h2>
             <div class="reviews__submit">
-                <button class="reviews__submit-button">Оставить заявку</button>
+                <button id="modalOpen" class="reviews__submit-button">Оставить заявку</button>
             </div>
         </div>
     </section>
@@ -187,5 +175,22 @@
             </div>
         </div>
     </footer>
+		<div class="modal" id="modalContact">
+			<div class="modal-content">
+				<div class="close-button">
+					<button id="modalCloseBtn"><img src="images/close.svg" alt="close"></button>
+				</div>
+					<span>Свяжитесь с нами!</span>
+					<form class="modal-content__form" >
+							<input id="inputName" type="name" placeholder="Имя">
+							<input id="inputPhone" type="phone" placeholder="Номер телефона">
+					</form>
+					<div class="modal-button">
+							<button id="modalSubmitBtn"><p>Связаться</p></button>
+					</div>
+			</div>
+	</div>
 </body>
+<script src="script.js"></script>
+
 </html>
